@@ -2,12 +2,11 @@
 
 ### Command to run code:
 
-We used react.js for backend and Python for frontend. To run code:
+We used react.js for backend and Python for frontend. To run application via docker:
 ```
-$ pwd
->./AutonomousApplicationBuilder/Backend/
-$ uvicorn app.main:app --reload
+$docker-compose up --build -d
 ```
+This will run containers in background. The site should locally be available at ``http://localhost:3000`` which is the frontend. Backend API is at ``http://localhost:5000``.
 
 ### Repository Structure
 ```
